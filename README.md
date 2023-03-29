@@ -90,3 +90,36 @@
  
 
 
+
+
+Задание 3
+
+Подключите Node Exporter к серверу Prometheus.
+
+
+Процесс выполнения
+
+Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
+
+Отредактируйте prometheus.yaml, добавив в массив таргетов установленный в задании 2 node exporter
+
+Перезапустите prometheus
+
+Проверьте что он запустился
+
+Требования к результату
+
+ Прикрепите к файлу README.md скриншот конфигурации из интерфейса Prometheus вкладки Status > Configuration
+ 
+ Прикрепите к файлу README.md скриншот из интерфейса Prometheus вкладки Status > Targets, чтобы было видно минимум два эндпоинта
+ 
+ 
+ Ответ:
+ 
+
+![Screenshot_35](https://user-images.githubusercontent.com/75700701/228652397-373ecac5-5bbc-4ec1-a250-59b61035da9f.png)
+
+
+![Screenshot_34](https://user-images.githubusercontent.com/75700701/228652427-dc726cb5-a2bc-412c-afee-5b5b714f0adc.png)
+
+
